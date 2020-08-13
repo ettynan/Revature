@@ -1,0 +1,13 @@
+# lists all files that should not be tracked
+**/__pycache__/
+**/.vscode/
+**/*.log
+.DS_Store
+library/private.py
+logging_example.py
+/Include/
+/Lib/
+/Scripts/
+pyvenv.cfg
+**/.vs/
+*.coverage

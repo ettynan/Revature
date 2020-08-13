@@ -1,0 +1,114 @@
+body {
+  background-color: #ffffff;
+  
+}
+
+#toRight{
+  text-align: right;
+}
+
+#content, #title{
+  width: 800px;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(25, 102, 31);
+  box-shadow: 0px 0px 200px 10px #747776;
+  -moz-box-shadow: 5px 5px 10px #747776;
+  -webkit-box-shadow: 5px 5px 10px #747776;
+  box-shadow: 5px 5px 10px #747776;
+  border-radius: 15px;
+  border: thick ridge chocolate;
+  color: #ffffff;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+}
+
+#content {
+  height: 400px;
+}
+
+input, select, textarea{
+  -moz-box-shadow: inset -3px -3px 10px #eee;
+  -webkit-box-shadow: inset -3px -3px 10px #eee;
+  box-shadow: inset -3px -3px 10px #eee;
+  border-radius: 15px;
+  width: 200px;
+  -ms-box-sizing:content-box;
+-moz-box-sizing:content-box;
+-webkit-box-sizing:content-box; 
+box-sizing:content-box;
+}
+
+button {
+  -moz-box-shadow: inset -3px -3px 10px #eee;
+  -webkit-box-shadow: inset -3px -3px 10px #eee;
+  box-shadow: inset -3px -3px 10px #eee;
+  border-radius: 15px;
+}
+
+h1 {
+  text-shadow: #000000 -1px -1px 0, -25px 5px 5px rgba(206,89,55,0);
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+table{margin-top: 20px;}
+
+#container{
+  overflow: hidden scroll;
+  height: 400px;
+
+}
+
+#messager{
+  position: absolute;
+  right: 10px;
+  top: 161px;
+  height: 397px;
+  width: 220px;
+  text-align: center;
+  background-color: rgb(25, 102, 31);
+  box-shadow: 0px 0px 200px 10px #747776;
+  -moz-box-shadow: 5px 5px 10px #747776;
+  -webkit-box-shadow: 5px 5px 10px #747776;
+  box-shadow: 5px 5px 10px #747776;
+  border-radius: 15px;
+  border: thick ridge chocolate;
+  color: #ffffff;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+}
+
+.msg_body{
+  background-color: rgb(49, 124, 55);
+
+  border-radius: 15px;
+  border: thin ridge chocolate;
+  color: #ffffff;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+}
+
+.newMsg{
+  background-color: rgb(49, 124, 55);
+
+  border-radius: 15px;
+  border: thick ridge chocolate;
+  color: #ffffff;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+}
+
+.message{
+  border-radius: 15px;
+  border: thin ridge chocolate;
+  color: #ffffff;
+  background-color: rgb(35, 87, 22);
+  overflow-y: scroll;
+  height: 240px;
+}
+
+#msgBody{
+  height: 170px;
+  resize: none;
+}

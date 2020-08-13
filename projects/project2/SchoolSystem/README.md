@@ -1,0 +1,3 @@
+# SchoolSystem
+The High School Online Administration System allows users (students, teachers, admin) to handle online school activities pertaining to assignments, grading, attendance, curriculum, and administrative duties. The students are each assigned to various teachers such that as teachers release assignments those assignments are reachable only by assigned students.
+A student can log in, submit assignments and send in an update to their profile for review. Teachers can create curriculum, send in grades and feedback, and update their own profiles. Admins can approve/deny a student’s updated profile, add/delete students and teachers from the system.

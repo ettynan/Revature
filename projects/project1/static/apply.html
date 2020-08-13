@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <link rel="stylesheet" href="static/css/style.css">
+    <title>Loan Application</title>
+</head>
+<body>
+    <h1>Loan Application Form</h1>
+    <form id="application">
+        <label for="username"></label>
+        <input type="text" id="username" name="username" placeholder="User Name">
+        <label for="firstname"></label>
+        <input type="text" id="firstname" name="firstname" placeholder="First Name">
+        <label for="lastname"></label>
+        <input type="text" id="lastname" name="lastname" placeholder="Last Name"><br><br>
+        <label for="age"></label>
+        <input type="text" id="age" name="age" placeholder="Age">
+        <label for="gender"></label>
+        <input type="text" id="gender" name="gender" placeholder="Gender"><br><br>
+        <label for="ssn"></label>
+        <input type="text" id="ssn" name="ssn" placeholder="ssn"><br>
+        <br><br>
+        <h4>What type of loan is this for?</h4>
+        <div>
+            <label for"loan_type"></label>
+            <select name="loan_type" id="loan_type">
+            <option value="Mortgage">Mortgage</option>
+            <option value="Car">Car</option>
+            <option value="Personal">Personal</option>
+            <option value="Student">Student</option>
+            </select>
+        </div><br>
+        <h4>Employment Information</h4>
+        <div id="employment">
+            <label for="employer"></label>
+            <input type="text" id="employer" name="employer" placeholder="Current Employer">
+            <label for="title"></label>
+            <input type="text" id="title" name="title" placeholder="Title">
+            <br><br>
+            <label for="salary"></label>
+            <input type="text" id="salary" name="salary" placeholder="Salary">
+            <label for="expenses"></label>
+            <input type="number" id="expenses" name="expenses" placeholder="Monthly Expenses">
+            <br>
+        </div><br>
+        <h4>Billing Address</h4>
+        <div>
+            <label for="b_street"></label>
+            <input type="text" id="b_street" name="b_street" placeholder="Billing Address">
+            <label for="b_city"></label>
+            <input type="text" id="b_city" name="b_city" placeholder="City">
+
+            <label for="b_state">State:</label>
+            <label for="b_zip"></label>
+            <select name="b_state" id="b_state">
+            	<option value="AL">AL</option>
+                <option value="AK">AK</option>
+                <option value="AR">AR</option>
+                <option value="AZ">AZ</option>
+                <option value="CA">CA</option>
+                <option value="CO">CO</option>
+                <option value="CT">CT</option>
+                <option value="DC">DC</option>
+                <option value="DE">DE</option>
+                <option value="FL">FL</option>
+                <option value="GA">GA</option>
+                <option value="HI">HI</option>
+                <option value="IA">IA</option>
+                <option value="ID">ID</option>
+                <option value="IL">IL</option>
+                <option value="IN">IN</option>
+                <option value="KS">KS</option>
+                <option value="KY">KY</option>
+                <option value="LA">LA</option>
+                <option value="MA">MA</option>
+                <option value="MD">MD</option>
+                <option value="ME">ME</option>
+                <option value="MI">MI</option>
+                <option value="MN">MN</option>
+                <option value="MO">MO</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="NC">NC</option>
+                <option value="NE">NE</option>
+                <option value="NH">NH</option>
+                <option value="NJ">NJ</option>
+                <option value="NM">NM</option>
+                <option value="NV">NV</option>
+                <option value="NY">NY</option>
+                <option value="ND">ND</option>
+                <option value="OH">OH</option>
+                <option value="OK">OK</option>
+                <option value="OR">OR</option>
+                <option value="PA">PA</option>
+                <option value="RI">RI</option>
+                <option value="SC">SC</option>
+                <option value="SD">SD</option>
+                <option value="TN">TN</option>
+                <option value="TX">TX</option>
+                <option value="UT">UT</option>
+                <option value="VT">VT</option>
+                <option value="VA">VA</option>
+                <option value="WA">WA</option>
+                <option value="WI">WI</option>
+                <option value="WV">WV</option>
+                <option value="WY">WY</option>
+            </select>
+            <input type="text" id="b_zip" name="b_zip" placeholder="Zipcode">
+        </div><br>
+        <h4>Mailing Address</h4>
+        <div>
+            <label for="m_street"></label>
+            <input type="text" id="m_street" name="m_street" placeholder="Billing Address">
+            <label for="m_city"></label>
+            <input type="text" id="m_city" name="m_city" placeholder="City">
+
+            <label for="m_state">State:</label>
+            <label for="m_zip"></label>
+            <select name="m_state" id="m_state">
+            	<option value="AL">AL</option>
+                <option value="AK">AK</option>
+                <option value="AR">AR</option>
+                <option value="AZ">AZ</option>
+                <option value="CA">CA</option>
+                <option value="CO">CO</option>
+                <option value="CT">CT</option>
+                <option value="DC">DC</option>
+                <option value="DE">DE</option>
+                <option value="FL">FL</option>
+                <option value="GA">GA</option>
+                <option value="HI">HI</option>
+                <option value="IA">IA</option>
+                <option value="ID">ID</option>
+                <option value="IL">IL</option>
+                <option value="IN">IN</option>
+                <option value="KS">KS</option>
+                <option value="KY">KY</option>
+                <option value="LA">LA</option>
+                <option value="MA">MA</option>
+                <option value="MD">MD</option>
+                <option value="ME">ME</option>
+                <option value="MI">MI</option>
+                <option value="MN">MN</option>
+                <option value="MO">MO</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="NC">NC</option>
+                <option value="NE">NE</option>
+                <option value="NH">NH</option>
+                <option value="NJ">NJ</option>
+                <option value="NM">NM</option>
+                <option value="NV">NV</option>
+                <option value="NY">NY</option>
+                <option value="ND">ND</option>
+                <option value="OH">OH</option>
+                <option value="OK">OK</option>
+                <option value="OR">OR</option>
+                <option value="PA">PA</option>
+                <option value="RI">RI</option>
+                <option value="SC">SC</option>
+                <option value="SD">SD</option>
+                <option value="TN">TN</option>
+                <option value="TX">TX</option>
+                <option value="UT">UT</option>
+                <option value="VT">VT</option>
+                <option value="VA">VA</option>
+                <option value="WA">WA</option>
+                <option value="WI">WI</option>
+                <option value="WV">WV</option>
+                <option value="WY">WY</option>
+            </select>
+            <input type="text" id="m_zip" name="m_zip" placeholder="Zipcode">
+        </div><br>
+        <input type="submit" value="Submit" id='submit_btn'>
+    </form>
+    <script src="/static/js/apply_form.js"></script>
+</body>
+</html>
